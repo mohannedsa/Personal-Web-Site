@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="lightbox1.css" />
+    <link rel="stylesheet" href="style.css" />
+     <script src="scripts/projects.js"></script> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="canvas">
+            <div class="wrapper">
+                <div id="header">
+                    <ul id="nav">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a class="active" href="projectPage.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+
+<div class="row">
+  <div class="column">
+    <img src="bounce.png" alt="bounce" style="width:100%" onclick="popUp(this);">
+    <script>document.write(Projects[0].Title)</script>
+    <script>document.write(Projects[0].Description)</script>
+    <a href="https://mohannedsa.github.io/cojo2901/project2.html"><p>Click me to see</p></a>
+  </div>
+  <div class="column">
+    <img src="fun.png" alt="fun" style="width:100%" onclick="popUp(this);">
+    <script>document.write(Projects[1].Title)</script>
+    <script>document.write(Projects[1].Description)</script>
+    <a href="https://mohannedsa.github.io/cojo2901/project3.html"><p>Click me to see</p></a>
+  </div>
+  <div class="column">
+    <img src="resize.png" alt="resize" style="width:100%" onclick="popUp(this);">
+    <script>document.write(Projects[2].Title)</script>
+    <script>document.write(Projects[2].Description)</script>
+  </div>
+  <div class="column">
+    <img src="addlist.png" alt="addlist" style="width:100%" onclick="popUp(this);">
+    <script>document.write(Projects[3].Title)</script>
+    <script>document.write(Projects[3].Description)</script>
+  </div>
+
+  <div class="column">
+    <img src="shoppingcart.png" alt="shoppingcart" style="width:100%" onclick="popUp(this);">
+    <script>document.write(Projects[4].Title)</script>
+    <script>document.write(Projects[4].Description)</script>
+  </div>
+  <div class="column">
+    <img src="ecolab.png" alt="ecolab" style="width:100%" onclick="popUp(this);">
+    <script>document.write(Projects[5].Title)</script>
+    <script>document.write(Projects[5].Description)</script>
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none' "class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+</div>
+
+</body>
+
+</html>
