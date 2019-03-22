@@ -28,7 +28,6 @@ body {
 
 .row{
   background-color: #fffdfa;
-  display: grid;
 }
 /* create table style */
 .row:after {
