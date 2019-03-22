@@ -12,7 +12,7 @@ body {
   float: left;
   width: 33.33%;/* for desplaying 3 images*/
   padding: 10px;
-  border-style: outset;
+  border-style: solid;
 
 }
 
@@ -28,7 +28,7 @@ body {
 
 .row{
   background-color: #fffdfa;
-  display: flex;
+  width: flex;
 }
 /* create table style */
 .row:after {
