@@ -12,6 +12,8 @@ body {
   float: left;
   width: 33.33%;/* for desplaying 3 images*/
   padding: 10px;
+  border-style: outset;
+
 }
 
 /*  images Style */
