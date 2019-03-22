@@ -28,7 +28,7 @@ body {
 
 .row{
   background-color: #fffdfa;
-  width: flex;
+  display: grid;
 }
 /* create table style */
 .row:after {
