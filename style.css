@@ -186,7 +186,7 @@ ul {
 #secondary {
     border-left: 1px solid #e1e1e1;
     float: right;
-    padding-left: 30px;
-    width: calc(33.333% - 20px);
+    padding-left: 40px;
+    width: calc(33.333% - 30px);
     word-wrap: break-word;
 }
