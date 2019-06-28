@@ -90,7 +90,16 @@ a.active{
 
 }
 
+#canvas{
+      margin: 80px;
+      border-width: 5px;
+      border-style: solid;
+    border-color: #ddd;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 100px 0;
 
+}
 
 body #canvas{
     background-color: #fff;
@@ -100,6 +109,11 @@ body #canvas{
  #header {
   		/*background-image:url(heder.gif);*/
       background-color: #B9C9A3;
+  		}
+ #content {
+ 			  float: left;
+  			background-color: #efefef;
+  			padding:1em;
   		}
 
 
