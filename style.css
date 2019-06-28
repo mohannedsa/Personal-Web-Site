@@ -182,19 +182,3 @@ ul {
     text-align: center;
 
   }
-
-
-.column {
-  float: left;
-  width: 80%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.column2 {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
