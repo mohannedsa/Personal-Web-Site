@@ -182,3 +182,11 @@ ul {
     text-align: center;
 
   }
+
+#secondary {
+    border-left: 1px solid #e1e1e1;
+    float: right;
+    padding-left: 40px;
+    width: calc(33.333% - 80px);
+    word-wrap: break-word;
+}
