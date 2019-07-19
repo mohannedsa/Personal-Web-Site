@@ -10,7 +10,7 @@ body {
      text-shadow: 0 0 0.75px lightblue;
     text-align: center;
     color: #5A4B35
-    font-size:4vw;
+    font-size: 1.8vw;
     color: #5A4B35;
     margin: 0 auto;
     padding: 0;
@@ -22,14 +22,14 @@ body {
 h2 {
     text-align: center;
     padding-right;
-    font-size:2vw 
+    font-size: 1.2vw;
 }
 
 h3 {
-  text-align: center;
-  font-family: serif;
+      text-align: center;
+ font-family: serif;
   color: #5A4B35;
-  font-size:0.9vw
+  font-size: 0.8vw;
 }
 
 h4 {
