@@ -132,6 +132,7 @@ img {
 
 img.hover-shadow {
   transition: 0.3s;
+  color: red;
 }
 
 .hover-shadow:hover {
