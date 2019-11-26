@@ -8,7 +8,7 @@ body {
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding: 0 2px;
 }
 
 .row:after {
@@ -19,7 +19,7 @@ body {
 
 .column {
   float: left;
-  width: 25%;
+  width: 30%;
 }
 
 /* The Modal (background) */
