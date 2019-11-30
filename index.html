@@ -99,8 +99,68 @@
 
         <textarea id="text">
     -->
+
+
+    <style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+#news nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+#news nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+<section>
+
+    <article>
             <p> I am seeking employment opportunities where I can utilize the skills I have obtained from my education and experience. I have high hopes that my major will aid in developing my personal and professional skills. I have a strong foundation for my major because of my communication and technical skills I have developed through my learning and experiences.</p>
 
+    </article>        
+    <nav id=news>
             <h1>Latest News</h1>
             <h2>SAP</h2>
             <center>
@@ -114,7 +174,8 @@
             <h2>Project For Pride In Living</h2>
             <center>
                 <h3>Data Analisis Volunteer</br> Data Entry</h3></center>
-
+</nav>
+</section>
 
         </textarea>
         <div id="footer">
