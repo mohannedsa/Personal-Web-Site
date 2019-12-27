@@ -1,5 +1,5 @@
 var url = "https://translate.yandex.net/api/v1.5/tr.json/translate";
-APIKey = "trnsl.1.1.20190304T084531Z.87d1fd2cff1dc2eb.6eeee232085bc6456a5bb4837cb13e2c1b5fa9a5";
+APIKey = "trnsl.1.1.20191128T055445Z.6cf7130b696fc48c.03b3a0e0ad76d7b53a3079a6cfd85000b6378f3d";
       
       
       var textToTranslate = document.getElementById("text").value;
