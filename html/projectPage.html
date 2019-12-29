@@ -1,163 +1,121 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Projects</title>
-    <link rel="stylesheet" href="../css/lightbox.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-     <script src="../js/lightbox.js"></script> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-
-<body>
-    <div class="main">
-        <div id="canvas">
-           <h1  style="font-size: 50px; color: #5A4B35" class="tracking-in-expand-fwd">Mohannad Abuhussain</h1>
-
-            <div class="wrapper">
-                <div id="header">
-                    <ul id="nav">
-                        <li><a href="../index.html">About</a></li>
-                        <li><a href="resume.html">Resume</a></li>
-                        <li><a class="active" href="projectPage.html">Projects</a></li>
-                    </ul>
-                </div>
-            </div>
-
-          </br>
-        </br>
-
-<div class="row">
-  <div class="column">
-    <img src="../img/data1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-    <p></p>
-  </div>
-
-  <div class="column">
-    <img src="../img/hadoop1.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <!--
-    <a href="https://dzarling1.github.io/Air-Quality-Project/index.html"><img src="../img/airqualityapp.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></a>
- -->
-  </div>
-
-
-  <div class="column">
-    <a href="https://run.qwiklabs.com/public_profiles/cfb92e3b-05a6-4015-b4a9-4b838b3062c5"><img src="../img/gsuit.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></a>
- 
-  </div>
-
-  <div class="column">
-    <a href="https://run.qwiklabs.com/public_profiles/cfb92e3b-05a6-4015-b4a9-4b838b3062c5"><img src="../img/googlecert.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></a>
- 
-  </div>
-
-  <div class="column">
-    <a href="https://www.youracclaim.com/badges/dd7c8fad-e20d-4785-a294-a781196ea42c/public_url"><img src="../img/hana.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor"></a>
- 
-  </div>
-
-
-</div>
-
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 5</div>
-      <img src="../img/data.PNG" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 5</div>
-      <img src="../img/hadoop.PNG" style="width:100%">
-    </div>
-
-    <!--
-    <div class="mySlides">
-      <div class="numbertext">4 / 6</div>
-      <img src="../img/airqualityapp.png
-" style="width:100%">
-    </div>
-  -->
-    <div class="mySlides">
-      <div class="numbertext">3 / 5</div>
-      <img src="../img/gsuit.png
-" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 5</div>
-      <img src="../img/googlecert.PNG
-" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">5 / 5</div>
-      <img src="../img/hana.png
-" style="width:100%">
-    </div>
-
-
-    
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
-    <div class="column">
-      <img class="demo cursor" src="../img/data.PNG" style="width:100%" onclick="currentSlide(1)" alt="This badge earner has an understanding of the possibilities and opportunities that data science, analytics and big data bring to new applications in any industry.">
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="300e366c-53e4-4f10-9791-74f6daacad0e"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="../img/hadoop.PNG" style="width:100%" onclick="currentSlide(2)" alt="This badge earner has a basic understanding of Hadoop. The earner can describe what Big Data is and the need for Hadoop to be able to process that data in a timely manner. The individual can describe the Hadoop architecture and how to work with the Hadoop Distributed File System (HDFS) using IBM BigInsights.">
-
-      <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e1ea7763-7b03-4e32-ad02-66d5f87d6f59"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
-    </div>
-
-  <div class="column">
-      <img class="demo cursor" src="../img/cer_chamb.png" style="width:100%" onclick="currentSlide(3)" alt="a badge earned by QwikLabs for completing its Google labs"><a href="https://run.qwiklabs.com/public_profiles/cfb92e3b-05a6-4015-b4a9-4b838b3062c5"></a>
-    </div>
-
-    <div class="column">
-      <img class="demo cursor" src="../img/googlecert.png" style="width:100%" onclick="currentSlide(4)" alt="a badge earned by QwikLabs for completing its Google labs"><a href="../img/googlecert.PNG"></a>
-    </div>
-
-
-    <div class="column">
-      <img class="demo cursor" src="../img/hana.png" style="width:100%" onclick="currentSlide(5)" alt="SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates (SAP S/4HANA 1809) certification exam verifies that the candidate possesses fundamental knowledge and proven skills in the area of SAP S/4HANA Financial Accounting. It tests that the candidate has a good overall understanding within this consultant profile and can implement this knowledge practically in projects under the guidance of an experienced consultant. It is recommended as an entry-level."><a href="https://www.youracclaim.com/badges/dd7c8fad-e20d-4785-a294-a781196ea42c/public_url"></a>
-    
-
-
-    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dd7c8fad-e20d-4785-a294-a781196ea42c"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
- </div>
-    
-</div>
-<div id="footer">
-            <!--<div id="nav">
-                <a href="https://twitter.com/17_mohannd"> Twitter</a>
-                <a href="https://www.instagram.com/mohannadsa21/">Instagram</a>
-        <a href="https://www.facebook.com/mohand.saad.948 "> Facebook</a>
-        </div>-->
+   <head>
+      <title>Projects</title>
+      <link rel="stylesheet" href="../css/lightbox.css" />
+      <link rel="stylesheet" href="../css/style.css" />
+      <script src="../js/lightbox.js"></script> 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <div class="main">
+      <div id="canvas">
+      <h1  style="font-size: 50px; color: #5A4B35" class="tracking-in-expand-fwd">Mohannad Abuhussain</h1>
+      <div class="wrapper">
+         <div id="header">
+            <ul id="nav">
+               <li><a href="../index.html">About</a></li>
+               <li><a href="resume.html">Resume</a></li>
+               <li><a class="active" href="projectPage.html">Projects</a></li>
+            </ul>
+         </div>
       </div>
-       <a href="https://twitter.com/MohannedSaad1" class="twitter-follow-button" data-show-count="false">Follow @MohannedSaad1</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <style type="text/css">
-        
-.tracking-in-expand-fwd{-webkit-animation:tracking-in-expand-fwd 4s both;animation:tracking-in-expand-fwd 4s both};
-
-@-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}};
-
-    </style>
-</body>
-
+      </br>
+      </br>
+      <div class="row">
+         <div class="column">
+            <img src="../img/data1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            <p></p>
+         </div>
+         <div class="column">
+            <img src="../img/hadoop1.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+         </div>
+         <div class="column">
+            <!--
+               <a href="https://dzarling1.github.io/Air-Quality-Project/index.html"><img src="../img/airqualityapp.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></a>
+               -->
+         </div>
+         <div class="column">
+            <a href="https://run.qwiklabs.com/public_profiles/cfb92e3b-05a6-4015-b4a9-4b838b3062c5"><img src="../img/gsuit.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor"></a>
+         </div>
+         <div class="column">
+            <a href="https://run.qwiklabs.com/public_profiles/cfb92e3b-05a6-4015-b4a9-4b838b3062c5"><img src="../img/googlecert.PNG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor"></a>
+         </div>
+         <div class="column">
+            <a href="https://www.youracclaim.com/badges/dd7c8fad-e20d-4785-a294-a781196ea42c/public_url"><img src="../img/hana.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor"></a>
+         </div>
+      </div>
+      <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+         <div class="mySlides">
+            <div class="numbertext">1 / 5</div>
+            <img src="../img/data.PNG" style="width:100%">
+         </div>
+         <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img src="../img/hadoop.PNG" style="width:100%">
+         </div>
+         <!--
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src="../img/airqualityapp.png
+            " style="width:100%">
+            </div>
+            -->
+         <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img src="../img/gsuit.png
+               " style="width:100%">
+         </div>
+         <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img src="../img/googlecert.PNG
+               " style="width:100%">
+         </div>
+         <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="../img/hana.png
+               " style="width:100%">
+         </div>
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         <div class="caption-container">
+            <p id="caption"></p>
+         </div>
+         <div class="column">
+            <img class="demo cursor" src="../img/data.PNG" style="width:100%" onclick="currentSlide(1)" alt="This badge earner has an understanding of the possibilities and opportunities that data science, analytics and big data bring to new applications in any industry.">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="300e366c-53e4-4f10-9791-74f6daacad0e"></div>
+            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+         </div>
+         <div class="column">
+            <img class="demo cursor" src="../img/hadoop.PNG" style="width:100%" onclick="currentSlide(2)" alt="This badge earner has a basic understanding of Hadoop. The earner can describe what Big Data is and the need for Hadoop to be able to process that data in a timely manner. The individual can describe the Hadoop architecture and how to work with the Hadoop Distributed File System (HDFS) using IBM BigInsights.">
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e1ea7763-7b03-4e32-ad02-66d5f87d6f59"></div>
+            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+         </div>
+         <div class="column">
+            <img class="demo cursor" src="../img/cer_chamb.png" style="width:100%" onclick="currentSlide(3)" alt="a badge earned by QwikLabs for completing its Google labs"><a href="https://run.qwiklabs.com/public_profiles/cfb92e3b-05a6-4015-b4a9-4b838b3062c5"></a>
+         </div>
+         <div class="column">
+            <img class="demo cursor" src="../img/googlecert.png" style="width:100%" onclick="currentSlide(4)" alt="a badge earned by QwikLabs for completing its Google labs"><a href="../img/googlecert.PNG"></a>
+         </div>
+         <div class="column">
+            <img class="demo cursor" src="../img/hana.png" style="width:100%" onclick="currentSlide(5)" alt="SAP Certified Application Associate - SAP S/4HANA for Financial Accounting Associates (SAP S/4HANA 1809) certification exam verifies that the candidate possesses fundamental knowledge and proven skills in the area of SAP S/4HANA Financial Accounting. It tests that the candidate has a good overall understanding within this consultant profile and can implement this knowledge practically in projects under the guidance of an experienced consultant. It is recommended as an entry-level."><a href="https://www.youracclaim.com/badges/dd7c8fad-e20d-4785-a294-a781196ea42c/public_url"></a>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dd7c8fad-e20d-4785-a294-a781196ea42c"></div>
+            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+         </div>
+      </div>
+      <div id="footer">
+         <!--<div id="nav">
+            <a href="https://twitter.com/17_mohannd"> Twitter</a>
+            <a href="https://www.instagram.com/mohannadsa21/">Instagram</a>
+            <a href="https://www.facebook.com/mohand.saad.948 "> Facebook</a>
+            </div>-->
+      </div>
+      <a href="https://twitter.com/MohannedSaad1" class="twitter-follow-button" data-show-count="false">Follow @MohannedSaad1</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <style type="text/css">
+         .tracking-in-expand-fwd{-webkit-animation:tracking-in-expand-fwd 4s both;animation:tracking-in-expand-fwd 4s both};
+         @-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}};
+      </style>
+   </body>
 </html>
-
